@@ -66,28 +66,45 @@ height: 50px;
     float: left;
     border: 1px solid black;
    }
-   
+   .col-md-1 {
+     width: 8.33%;
+    }
+   .col-md-2 {
+     width: 8.33%;
+    }
+     
+   .col-md-3 {
+     width: 8.33%;
+    }
+  }
    /*********** Mobile devices only *************/ 
    @media (min-width: 767px) {
-   #p1 {
-     width: 50%;
+  .col-sm-1 {
+     width: 8.33%;
+    }
+   .col-sm-2 {
+     width: 8.33%;
+    }
+     
+   .col-sm-3 {
+     width: 8.33%;
+    }
   }
-   #p2 {
-      width: 50px;
-      height: 50px;
-  }
- }
 
   </style>
   </head>
   <body>
   <h1 align="center">Our Menu</h1>
-  <p1><p1>
-  <p2>Lorem ipsum dolor sit amet, consectetur 
+  
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+  <p>Lorem ipsum dolor sit amet, consectetur 
   adipiscing elit, sed do eiusmod tempor incididunt
   ut labore et dolore magna aliqua. Ut enim ad 
   minim veniam, quis nostrud exercitation ullamco 
-  laboris nisi ut aliquip ex ea commodo consequat.</p2>
+  laboris nisi ut aliquip ex ea commodo consequat.
+ </p>
+ <div>
   </body>
 </html>
   
