@@ -7,8 +7,9 @@
   
 /********** Base styles *************/
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
   border: none;
+ 
 }
 
 h1 {
@@ -24,11 +25,13 @@ p {
   margin-left: 80px;
   margin-top: -45px;
   width: 95%;
-  height: 150px;
+  height: 200px;
   font-family: Comic Sans MS;
   color: #030303;
-  text-align: center;
+ 
 }
+
+
   
 #p1 {
   background-color: #F8C8C8;
@@ -70,8 +73,7 @@ p {
     /*********** Large devices only *************/
  @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3 {
-  float: left;
-   
+  float:left;
    }
    .col-lg-1 {
      width: 30%;
@@ -88,7 +90,7 @@ p {
   /*********** Medium devices only *************/ 
    @media (min-width: 768px) and (max-width: 991px) {
    .col-md-1, .col-md-2, .col-md-3 {
-   float: left;
+   float:left;
    
    }
    .col-md-1 {
@@ -128,15 +130,18 @@ p {
   </head>
 <body>
     <h1 align="center">Our Menu</h1>
-
     <div id="Container">
         <p id="p1">Chicken</p>
         <p id="p2">Beef</p>
         <p id="p3">Sushi</p>
     </div>
 
+
     <div class="col-lg-1 col-md-1 col-sm-1">
+
+
         <p>
+       
             lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad
@@ -146,7 +151,24 @@ p {
     </div>
 
     <div class="col-lg-2 col-md-2 col-sm-2">
+
+      
         <p>
+     
+        
+            lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo conse
+      
+        </p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3">
+      
+        <p>
+      
+
             lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad
@@ -154,15 +176,6 @@ p {
             laboris nisi ut aliquip ex ea commodo conse
         </p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-3">
-        <p>
-            lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo conse
-        </p>
-     </div>
 
 
 </body>
