@@ -4,143 +4,145 @@
     <meta charset="utf-8">
     <title>Assignment Solution for module 2</title>
 
-<style>
-    /*basic style*/
-    * {
-        box-sizing: border-box;
-    }
+    <style>
 
-    h1 {
-        margin: 100px;
-        text-align: center;
-        font-family: Comic Sans MS;
-        font-weight: bold;
-        font-size: 175%;
-    }
-
-    section {
-        position: relative;
-        padding: 15px;
-        width: 100%;
-    }
-
-    p {
-        position: relative;
-        clear: right;
-    }
-
-    div {
-        position: relative;
-        background-color: gray;
-        border: 1px solid black;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-
-    #p1 {
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: pink;
-        font-family: Comic Sans MS;
-    }
-
-    #p2 {
-        float: right;
-        color: white;
-        width: 100px;
-        padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: maroon;
-        font-family: Comic Sans MS;
-    }
-
-    #p3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: beige;
-        font-family: Comic Sans MS;
-    }
-
-    .content {
-        padding: 5px;
-        border: none;
-        background-color: gray;
-        font-family: Comic Sans MS;
-        color: black;
-        margin: 0px;
-        height: 200px;
-        overflow: auto;
-    }
-
-    .row {
-        width: 100%;
-    }
-
-    /*********desktop version*************/
-    @media (min-width: 992px) {
-        .column-lg-4 {
-            float: left;
-            width: 33.33%;
-        }
-    }
-    /**********tablet version**************/
-    @media (min-width: 768px) and (max-width: 991px) {
-
-        .colmn-md-4 {
-            float: left;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
+        /*basic style*/
+        * {
+            box-sizing: border-box;
         }
 
-
-
-        .colmn-md-6 {
-            float: left;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
+        h1 {
+            margin: 100px;
+            text-align: center;
+            font-family: Comic Sans MS;
+            font-weight: bold;
+            font-size: 175%;
         }
 
-        .colmn-md-12 {
-            float: left;
+        section {
+            position: relative;
+            padding: 15px;
+            width: 100%;
+            margin: auto;
+          
+        }
+
+        p {
+            position: relative;
+            clear: right;
+        }
+
+        div {
+            position: relative;
+            background-color: gray;
+            border: 1px solid black;
             width: 100%;
             margin-left: auto;
             margin-right: auto;
         }
-    }
-    /**************mobile version**************/
-    @media (max-width: 767px) {
-        .colmn-sm-12 {
-            float: left;
+
+        #p1 {
+            float: right;
+            width: 100px;
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 125%;
+            font-weight: bold;
+            background-color: pink;
+            font-family: Comic Sans MS;
+        }
+
+        #p2 {
+            float: right;
+            color: white;
+            width: 100px;
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 125%;
+            font-weight: bold;
+            background-color: maroon;
+            font-family: Comic Sans MS;
+        }
+
+        #p3 {
+            color: black;
+            float: right;
+            width: 100px;
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 125%;
+            font-weight: bold;
+            background-color: beige;
+            font-family: Comic Sans MS;
+        }
+
+        .content {
+            padding: 5px;
+            border: none;
+            background-color: gray;
+            font-family: Comic Sans MS;
+            color: black;
+            margin: 0px;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .row {
             width: 100%;
         }
-    }
-</style>
-    </head>
+
+        /*********desktop version*************/
+        @media (min-width: 992px) {
+            .column-lg-4 {
+                float: left;
+                width: 33.33%;
+            }
+        }
+        /**********tablet version**************/
+        @media (min-width: 768px) and (max-width: 991px) {
+
+            .colmn-md-4 {
+                float: left;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+
+            .colmn-md-6 {
+                float: left;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .colmn-md-12 {
+                float: left;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        /**************mobile version**************/
+        @media (max-width: 767px) {
+            .colmn-sm-12 {
+                float: left;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
 
 <body>
     <h1>Our Menu</h1>
-    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12 ">
         <div>
             <p id="p1">Chicken</p>
             <p class="content">
@@ -152,7 +154,7 @@
             </p>
         </div>
     </section>
-    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12 ">
         <div>
             <p id="p2">Beef</p>
             <p class="content">
@@ -164,7 +166,7 @@
             </p>
         </div>
     </section>
-    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12 colmn-md-12">
         <div>
             <p id="p3">Sushi</p>
             <p class="content">
