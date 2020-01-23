@@ -3,10 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Assignment Solution for module 2</title>
-</head>
+
 <style>
-
-
     /*basic style*/
     * {
         box-sizing: border-box;
@@ -51,6 +49,7 @@
         font-size: 125%;
         font-weight: bold;
         background-color: pink;
+        font-family: Comic Sans MS;
     }
 
     #p2 {
@@ -64,6 +63,7 @@
         font-size: 125%;
         font-weight: bold;
         background-color: maroon;
+        font-family: Comic Sans MS;
     }
 
     #p3 {
@@ -77,6 +77,7 @@
         font-size: 125%;
         font-weight: bold;
         background-color: beige;
+        font-family: Comic Sans MS;
     }
 
     .content {
@@ -86,7 +87,7 @@
         font-family: Comic Sans MS;
         color: black;
         margin: 0px;
-        height: 100px;
+        height: 150px;
         overflow: auto;
     }
 
@@ -103,6 +104,16 @@
     }
     /**********tablet version**************/
     @media (min-width: 768px) and (max-width: 991px) {
+
+        .colmn-md-4 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
         .colmn-md-6 {
             float: left;
             width: 50%;
@@ -125,6 +136,8 @@
         }
     }
 </style>
+    </head>
+
 <body>
     <h1>Our Menu</h1>
     <section class="column-lg-4 colmn-md-6 colmn-sm-12">
@@ -163,5 +176,5 @@
             </p>
         </div>
     </section>
-</body> 
+</body>
 </html>
